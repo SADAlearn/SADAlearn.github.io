@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>웹사이트</title>
+    <style>
+        /* Default styles for all screen sizes */
+        body {
+            background-color: lightblue;
+        }
+
+        /* Styles for screens up to 768px */
+        @media only screen and (max-width: 768px) {
+            body {
+                background-color: lightyellow;
+            }
+        }
+		
+        /* Styles for screens up to 600px */
+        @media only screen and (max-width: 600px) {
+            body {
+                background-color: lightpink;
+            }
+        }
+		
+		/* Styles for screens up to 480px */
+        @media only screen and (max-width: 480px) {
+            body {
+                background-color: lightgreen;
+            }
+        }
+
+        /* Styles for screens above 768px */
+        /*@media only screen and (min-width: 769px) {
+            body {
+                background-color: lightgray;
+            }
+        }*/
+    </style>
+</head>
+<body>
+    <!-- 웹사이트 내용 -->
+	<ul>
+		<li>Default: lightblue</li>
+		<li>601~768: lightyellow</li>
+		<li>481~600: lightpink</li>
+		<li>~480: lightgreen</li>
+	</ul>
+</body>
+</html>
